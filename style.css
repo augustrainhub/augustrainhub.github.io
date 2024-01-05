@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+/* .texth2 {
+    color: aliceblue;
+    font-weight: bold;
+} */
+
+nav {
+    padding: 0 20px;
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+section {
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #958c8c;
+}
+
+button {
+    display: inline-block;
+    background: #555;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #666;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.service-item img {
+    max-width: 100%; /* This ensures image is not larger than its container */
+    max-height: 50px; /* Adjust this value to fit your design */
+    width: auto; /* Maintain aspect ratio */
+    height: auto; /* Maintain aspect ratio */
+    border-bottom: 1px solid #eee;
+    /* padding-bottom: 1rem; */
+}
+
+.service-item {
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    display: flex; /* Enables Flexbox */
+    align-items: center; /* Vertically centers the items in the container */
+    justify-content: left; /* Horizontally centers the items */
+    gap: 10px; /* Adjust the gap as needed */
+}
